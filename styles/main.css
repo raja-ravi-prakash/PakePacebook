@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    height: 99vh;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+button {
+    padding: 1rem;
+    width: 8rem;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 2px 2px 20px white;
+}
+
