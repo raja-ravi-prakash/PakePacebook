@@ -9,7 +9,7 @@
 <body>
     <script>
     setTimeout(function() {
-        window.location.href = "http://" + document.domain + "/";
+        window.location.href = "https://" + document.domain + "/";
     }, 5000);
     </script>
     <?php
@@ -36,7 +36,7 @@
     <button id="click" onclick="go()">Go Back</button>
     <script>
     function go() {
-        window.location.href = "http://" + document.domain + "/";
+        window.location.href = "https://" + document.domain + "/";
     }
     </script>
 </body>

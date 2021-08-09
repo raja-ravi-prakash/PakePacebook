@@ -14,7 +14,7 @@
     <button id="click" onclick="go()">Register</button>
     <script>
     function go() {
-        window.location.href = "http://" + document.domain + "/form.php";
+        window.location.href = "https://" + document.domain + "/form.php";
     }
     </script>
 </body>
