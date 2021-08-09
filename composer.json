@@ -1,0 +1,13 @@
+{
+    "name": "ronin/pake-pacebook",
+    "authors": [
+        {
+            "name": "raja-ravi-prakash",
+            "email": "iamraviprakash1@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-sqlite3": "*",
+        "php": "*"
+    }
+}

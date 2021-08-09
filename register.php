@@ -9,8 +9,6 @@
 <body>
     <script>
     setTimeout(function() {
-        let el = document.getElementById('loading');
-        el.style.display = "none";
         window.location.href = "http://" + document.domain + "/";
     }, 5000);
     </script>
