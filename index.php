@@ -13,9 +13,9 @@
     <h1>Local Hackathon - MUSAC</h1>
     <button id="click" onclick="go()">Register</button>
     <script>
-        function go() {
-            window.location.href = "http://" + document.domain + "/form.html";
-        }
+    function go() {
+        window.location.href = "http://" + document.domain + "/form.php";
+    }
     </script>
 </body>
 
